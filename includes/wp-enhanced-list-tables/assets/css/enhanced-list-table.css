@@ -1,0 +1,68 @@
+.enhanced-list-table-wrapper,#posts-filter{
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+#posts-filter{
+    padding: 27px;
+    margin-top: 12px;
+}
+
+#posts-filter .button{
+
+border-color:  #454C9B;
+color: #454C9B;
+}
+
+
+.subsubsub{
+    margin-top: 48px;
+    margin-left: 25px;
+}
+.enhanced-list-table-wrapper .wp-list-table,
+.enhanced-list-table-wrapper .wp-list-table thead th,
+ .enhanced-list-table-wrapper .wp-list-table thead td,
+ .enhanced-list-table-wrapper .wp-list-table tfoot tr,
+ .enhanced-list-table-wrapper .wp-list-table tfoot td{
+    border: none !important;
+    box-shadow: none !important;
+}
+.enhanced-list-table-wrapper .wp-list-table tbody tr{
+   background-color: white;
+}
+.enhanced-list-table-wrapper .wp-list-table thead td,
+ .enhanced-list-table-wrapper .wp-list-table thead th,
+ .enhanced-list-table-wrapper .wp-list-table tfoot td,
+  .enhanced-list-table-wrapper .wp-list-table tfoot th{
+    font-weight: bold;
+    background-color: #F6F7FF;
+    padding: 15px;
+    border: none !important;
+}
+.enhanced-list-table-wrapper .wp-list-table tbody td,
+.enhanced-list-table-wrapper .wp-list-table tbody th{
+    padding: 15px;
+}
+.enhanced-list-table-wrapper .wp-list-table thead tr td{
+    border-top-left-radius: 12px;
+}
+.enhanced-list-table-wrapper .wp-list-table tfoot tr td{
+    border-bottom-left-radius: 12px;
+}
+.enhanced-list-table-wrapper .wp-list-table thead tr th:last-child{
+    border-top-right-radius: 12px;
+}
+.enhanced-list-table-wrapper .wp-list-table tfoot tr th:last-child{
+    border-bottom-right-radius: 12px;
+}
+
+.enhanced-list-table-wrapper .wp-list-table tbody tr:hover{
+    background-color: #EAEFFE;
+    transition: 0.5s;
+}
+
+.enhanced-list-table-wrapper .plugins .active td,
+.enhanced-list-table-wrapper .plugins .active th{
+    background-color: #EAEFFE;
+}

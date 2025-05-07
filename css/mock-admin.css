@@ -1,0 +1,445 @@
+
+#mock-admin-previous-question-btn{
+    background-color: rgb(53, 134, 255);
+    color: #FFF;
+    border: 1px solid black;
+    padding: 8px;
+    margin: 10px;
+}
+
+#mock-admin-next-question-btn{
+    background-color: rgb(18, 177, 18);
+    color: #FFF;
+    border: 1px solid black;
+    padding: 8px;
+
+}
+
+.dash-wrap{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    width: 50%;
+}
+.dash-wrap .col {
+    width: 250px;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 8px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mock-pdf_download_admin {
+    padding: 6px 8px;
+    /* background: #07972e; */
+    color: #07972e;
+    border: 1px solid #07972e;
+    margin-left: 8px;
+}
+
+.mock-pdf_download_admin:hover {
+    cursor: pointer;
+    background-color: #07972e;
+    color: #fff;
+}
+
+.import-question {
+    margin-bottom: 10px;
+}
+
+.import-question form{
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.question-table-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;   
+}
+
+.remove-questions-button{
+    color: red;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 6px 11px;
+    border-radius: 5px;
+}
+
+.remove-questions-button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+/* Topic Results Container */
+.topic-results {
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topic-results h3 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Results Table */
+.topic-results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+/* Table Header */
+.topic-results-table thead tr {
+    background-color: #454c9b;
+    color: white;
+}
+
+.topic-results-table th {
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 600;
+}
+
+/* Table Body */
+.topic-results-table tbody tr {
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.2s;
+}
+
+.topic-results-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.topic-results-table tbody tr:hover {
+    background-color: #f1f8ff;
+}
+
+.topic-results-table td {
+    padding: 12px 15px;
+}
+
+/* Center aligned columns */
+.topic-results-table .center {
+    text-align: center;
+}
+
+/* Score percentage styling */
+.score-percentage {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .topic-results-table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+.table-wrap-assess{
+	padding: 27px;
+    background: #fff;
+    border-radius: 12px;
+}
+#courses_table{
+	border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#courses_table thead {
+    background-color: #f0f0f0; 
+    border-radius: 10px; 
+    color: #333; 
+}
+
+#courses_table tbody tr {
+    border-bottom: 1px solid #ddd; 
+}
+
+#courses_table tbody td {
+    padding: 10px;
+}
+
+#courses_table td,
+#courses_table th {
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+#courses_table td.truncate-single-line {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	text-align: left !important;
+    width: 300px; 
+}
+
+
+#courses_table .column-title {
+    text-align: center; 
+    padding: 10px;
+    font-weight: bold;
+    background-color: #F6F7FF;
+    margin-bottom: 5px; 
+}
+
+#courses_table thead tr th:first-child {
+    padding: 15px; 
+    border-top-left-radius: 12px;
+}
+
+
+#courses_table thead tr th:last-child {
+   border-top-right-radius: 12px;
+    padding: 15px; 
+    
+}
+
+#courses_table tbody tr td input{
+	border: none;
+    outline: none;
+    box-shadow: unset;
+    background: transparent;
+    text-align: center;
+}
+
+.q-remove{
+	border: 1px solid #454C9B;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #454C9B;
+}
+
+.q-edit{
+	border: 1px solid #454C9B;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #454C9B;
+}
+
+.left-navcls-btns-save{
+border: 1px solid #454C9B;
+    padding: 14px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #454C9B !important;	
+	background:transparent;
+}
+.left-navcls-btns-save:hover{
+	cursor:pointer;
+}
+
+#courses_table tbody tr.hover {
+    background-color: #EAEFFE; 
+	transition:0.5s;
+/* 	cursor:grabbing; */
+}
+
+#courses_table tbody tr:hover {
+    background-color: #EAEFFE; 
+	transition:0.5s;
+	cursor:grabbing;
+}
+
+
+.exam-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+}
+
+.exam-details-table th, .exam-details-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.exam-details-table th {
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+.exam-details-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.exam-details-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.exam-details-table th {
+    background-color: #454c9b;
+    color: white;
+}
+
+.exam-details-table td {
+    color: #000;
+}
+
+
+
+.exam-details-wrapper{
+	display: flex;
+    flex-direction: column-reverse;
+}
+
+.exam-details-overview .total-count{
+	font-weight: bolder;
+}
+
+.exam-details-overview p {
+	font-size: 17px;
+	margin: 4px;
+}
+
+.back-to-all-reports {
+    width: 10%;
+    text-align: center;
+}
+
+
+.display-name-center {
+    font-size: 18px;
+    display: flex
+;
+    flex-direction: column;
+    text-align: end;
+}
+
+.display-name-center span {
+    font-weight: 500;
+    color: #000000;
+    font-size: 19px;
+}
+
+#exam-form {
+    min-height: 21rem;
+    width: 50%;
+    border: 1px solid;
+    padding: 15px 50px;
+    background-color: #ffffff;
+    margin: 8px;
+}
+
+.edit_exam_view_navigation {
+    display: flex
+;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.loader-container{
+	display: none;
+	height: 448px;
+    position: absolute;
+    width: 98%;
+/*     background: #b9b9b92e; */
+ }
+.loader {
+	background: transparent;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 41%;
+    top: 55%;
+  }
+  
+  .loader:before , .loader:after{
+	content: '';
+	border-radius: 50%;
+	position: absolute;
+	inset: 0;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
+  }
+  .loader:after {
+	box-shadow: 0 2px 0 #244d81 inset;
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+	0% {  transform: rotate(0)}
+	100% { transform: rotate(360deg)}
+  }
+
+  .mock-dash {
+    display: flex;
+    flex-direction: column;
+    height: 84vh;
+    justify-content: space-around;
+    align-items: center;
+    background: #0087ffe3;
+}
+
+.dashboard-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.dash-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: rgb(114 212 235 / 86%) 0px 1px 2px 0px, rgb(114 212 235 / 86%) 0px 1px 2px 0px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.card-title {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.card-value {
+    font-size: 2.5em;
+    color: #0073aa;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #0073aa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-link .icon {
+    margin-left: 5px;
+    font-weight: bold;
+}
